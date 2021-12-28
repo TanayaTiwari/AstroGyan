@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>AstroGyan | Horoscope</title>
+
+      <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Uncial Antiqua', cursive;
+            
+            } 
+          header{
+              background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("The-horoscope.jpg");
+              height: 100vh;
+              background-size: cover;
+              background-position: cover;
+
+          }
+
+
+         
+
+            ul {
+                float: right;
+                list-style-type: none;
+                margin-top: 24px;
+                margin-right:
+                cursor: pointer;               
+            }
+           ul li {
+                display: inline-block;
+            }
+            ul li a {
+                text-decoration: none;
+                color: #fff;
+                padding: 5px 5px;
+                border: 1px solid transparent;
+                transition: 0.7s ease;
+                letter-spacing: 2px;
+            }
+            ul li a:hover {
+                background-color:#fff;
+                color:#000;
+            }
+            ul li.active a {
+
+                background: #fff;
+                color: #000;
+            }
+           .main{
+               float: right;
+               margin-right: auto;
+           }
+
+
+
+           .title{
+               position: absolute;
+               top: 50%;
+               left: 50%;
+               transform: translate(-50%,-50%);
+           }
+        
+           
+
+
+           .first {
+            display: inline-block;
+  font-family: 'Uncial Antiqua', cursive;
+  color: white;
+  font-weight: 350px;
+  font-size: 40px;
+  float: left;
+  margin-top: 2px;
+  margin-right: auto;
+  margin-left: 20px;
+  
+  background-color: transparent;
+  
+           }
+
+           .line1 {
+            background-color: blue;
+            background-blend-mode: overlay;
+            height: 7px;
+           }
+           
+           .Horoscope {
+            background-color:#fff;
+                color:#000;
+
+           }
+
+           .line { background-color: #80DEEA;
+            position: center;
+            height: 7px;
+          }
+
+           
+          </style>
+    </head>
+ <body>
+      <header>
+        <nav>
+          <h1 class="first"> AstroGyan </h1>
+          
+        
+          <div class="main">
+    <ul>
+
+	<li><a class="home"><a href="home.html">HOME</a></li>
+	<li><a class="Horoscope" href="#">HOROSCOPE</a></li>
+	<li><a href="trypooja.html">POOJA</a></li>
+	<li><a class="EXPERTS" href="tryexp.html">EXPERTS</a></li>
+	<li><a href="trybook.html">RELATED BOOK</a></li>
+	
+
+  <div class="line"> </div>
+    
+     </ul>
+    </div>
+    <div class="line1"></div>
+    </nav>
+    </header>
+   </body>
+</html>

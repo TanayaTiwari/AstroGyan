@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>AstroGyan | Pooja | Horoscope</title>
+
+      <style>
+
+        @import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+        * {
+
+
+            margin: 0;
+            padding: 0;
+            font-family: 'Uncial Antiqua', cursive;
+            
+            } 
+          header{
+              background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("IMG-20200218-WA0064.jpg");
+              height: 100vh;
+              background-size: cover;
+              background-position: cover;
+
+          }
+            ul {
+                float: right;
+                list-style-type: none;
+                margin-top: 24px;
+                margin-right:
+                cursor: pointer;               
+            }
+           ul li {
+                display: inline-block;
+            }
+            ul li a {
+                text-decoration: none;
+                color: #fff;
+                padding: 5px 5px;
+                border: 1px solid transparent;
+                transition: 0.7s ease;
+                letter-spacing: 2px;
+            }
+            ul li a:hover {
+                background-color:#fff;
+                color:#000;
+            }
+            ul li.active a {
+
+                background: #fff;
+                color: #000;
+            }
+           .main{
+               float: right;
+               margin-right: auto;
+           }
+
+           .scrol{
+
+            margin-top: 70px;
+            color: yellow;
+            font-weight: 30px;
+            font-size: 27px;
+
+          }
+
+
+           .title{
+               position: absolute;
+               top: 50%;
+               left: 50%;
+               transform: translate(-50%,-50%);
+           }
+           .title h1{
+               color:#fff;
+               font-size: 70px;
+           }
+           .title h2{
+            position: absolute;
+            left: 14%;
+               top: 270%; 
+               color:#fff;
+               font-size: 20px;
+               float: left;
+           }
+
+
+           .home {
+            background-color:#fff;
+                color:#000;
+           }
+          
+
+
+           .first {
+            display: inline-block;
+  font-family: 'Uncial Antiqua', cursive;
+  color: white;
+  font-weight: 350px;
+  font-size: 40px;
+  float: left;
+  margin-top: 2px;
+  margin-right: auto;
+  margin-left: 20px;
+  
+  background-color: transparent;
+           }
+
+           .line1 {
+            background-color: blue;
+            background-blend-mode: overlay;
+            height: 7px;
+
+          
+           
+          </style>
+    </head>
+ <body>
+      <header>
+        <nav>
+          <h1 class="first"> AstroGyan </h1>
+          
+        
+          <div class="main">
+    <ul>
+
+	<li><a class="home" href="#">HOME</a></li>
+	<li><a href="tryhor.html">HOROSCOPE</a></li>
+	<li><a href="trypooja.html">POOJA</a></li>
+	<li><a href="tryexp.html">EXPERTS</a></li>
+	<li><a href="trybook.html">RELATED BOOK</a></li>
+	
+    
+     </ul>
+    </div>
+    <div class="line1"></div>
+    </nav>
+    
+    
+    <div class="title">
+        <h1><marquee scrolldelay="10"
+      behavior="scroll"
+      scrollamount="2"
+       >AstroGyan</marquee></h1>
+
+        <h2>Welcome to the AstroGyan</h2>
+  
+      
+      </div>
+
+      <div class="scrol">
+      <p><marquee scrolldelay="9"
+      behavior="scroll"
+      loop="1"
+      scrollamount="1"
+      direction="right"
+        >Welcome to the world of stars</marquee></p>
+    </div>
+
+    </header>
+   </body>
+</html>
